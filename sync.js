@@ -24,19 +24,17 @@
   "use strict";
 
   var FIREBASE_CONFIG = {
-    // FIREBASE SETUP: paste the values from Epperly's Firebase project here.
-    // While apiKey is blank the app runs on each device by itself (no passcode, no sync).
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: "",
+    apiKey: "AIzaSyDOlOjrmxaO2r_zMnHFwcuDVLzG8dVcwYU",
+    authDomain: "epperly-club-lambs.firebaseapp.com",
+    projectId: "epperly-club-lambs",
+    storageBucket: "epperly-club-lambs.firebasestorage.app",
+    messagingSenderId: "922608240373",
+    appId: "1:922608240373:web:085dc6738c329e2b1b67bc",
   };
 
   // Single shared account backing every device. The app UI never shows this —
   // only a passcode field — but Firebase still does real server-side auth.
-  var SYNC_EMAIL = ""; // FIREBASE SETUP: the passcode account email
+  var SYNC_EMAIL = "epperlyclublambs@gmail.com";
 
   var LOCAL_PREFIX = "ecl:";
   var META_PREFIX = "ecl:__syncmeta:";
