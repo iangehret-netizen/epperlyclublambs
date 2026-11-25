@@ -1,4 +1,4 @@
-const CACHE_NAME = "epperly-app-v2";
+const CACHE_NAME = "epperly-app-v4";
 const ASSETS_TO_CACHE = [
   "./",
   "./index.html",
